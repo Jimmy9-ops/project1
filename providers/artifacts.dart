@@ -24,7 +24,7 @@ class Artifacts with ChangeNotifier {
         'https://cdn.pixabay.com/photo/2015/06/14/16/48/sarcophagus-809103_960_720.jpg'
       ],
       descriptionEN: ['lkjdsalk;djasldh'],
-      descriptionAR: ['تمثال جامد جدا'],
+      descriptionAR: ['تمثال  '],
     ),
     Artifact_Overview(
       id: 'a3',
@@ -35,7 +35,7 @@ class Artifacts with ChangeNotifier {
         'https://cdn.pixabay.com/photo/2019/03/07/12/50/egypt-4040121__340.jpg'
       ],
       descriptionEN: ['lkjdsalk;djasldh'],
-      descriptionAR: ['تمثال جامد نيك'],
+      descriptionAR: ['تمثال  '],
     ),
     Artifact_Overview(
       id: 'a4',
@@ -46,7 +46,7 @@ class Artifacts with ChangeNotifier {
         'https://cdn.pixabay.com/photo/2016/12/10/22/21/canopic-1898323__340.jpg'
       ],
       descriptionEN: ['lkjdsalk;djasldh'],
-      descriptionAR: ['تمثال جامد اوي'],
+      descriptionAR: ['تمثال  '],
     ),
     Artifact_Overview(
       id: 'a5',
@@ -55,7 +55,7 @@ class Artifacts with ChangeNotifier {
       categoriesId: ['a1'],
       imageUrl: ['http://collezioni.museoegizio.it/assets/ph-gallery.png'],
       descriptionEN: [''],
-      descriptionAR: ['تمثال جامد اوي'],
+      descriptionAR: ['تمثال  '],
     ),
     Artifact_Overview(
       id: 'a6',
@@ -74,13 +74,13 @@ class Artifacts with ChangeNotifier {
         'The Battlefield Palette obverse contains the circular defined area for the mixing of a cosmetic substance. It contains the battlefield scene, and forerunners of hieroglyphs: prisoner, tribal-territory wooden standard, the horus-falcon and an ibis bird resting on standards. The fractured lower half of the prisoner on the obverse right may have a hieroglyph at his front (the rectangle, as rounded for land) with suspected papyrus plants attached on top.The reverse of the palette has dramatically stylized versions of a bird, two antelope-like mammals, a vertical palm-tree trunk, a partial top with fruits, and short horizontal palm fronds.',
         'An individual in robe appears fragmentarily behind naked prisoners.[4] He may be wearing a full-length dress made of leopard skin,[5] and is probably a representative of the victorious Pharaoh standing behind one of the naked prisoner (naked, but for a penile sheath).[4] The fragment in front of the prisoner may possibly be part of the ancient sign for "Libya", an early enemy of pre-Dynastic Egyptian kings.[6] The character would consist in the throwing stick on top of an oval, meaning "region", "place", "island", a toponym of Libya or Western Delta pronouced THnw, Tjehenw, as seen on the Libyan Palette.[7]',
       ],
-      descriptionAR: ['تمثال جامد اوي'],
+      descriptionAR: ['تمثال  '],
     ),
     Artifact_Overview(
-      id: '',
+      id: 'a7',
       titleAR: '  ',
       titleEN: '',
-      categoriesId: ['e1'],
+      categoriesId: ['e1', 'm2'],
       imageUrl: [
         'https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Woman-E_11887-IMG_9547-gradient.jpg/800px-Woman-E_11887-IMG_9547-gradient.jpg'
       ],
@@ -88,10 +88,10 @@ class Artifacts with ChangeNotifier {
       descriptionAR: [''],
     ),
     Artifact_Overview(
-      id: '',
+      id: 'a8',
       titleAR: '  ',
       titleEN: '',
-      categoriesId: ['e1'],
+      categoriesId: ['e1', 'm2'],
       imageUrl: [
         'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Calendar_aswan.JPG/1024px-Calendar_aswan.JPG'
       ],
@@ -99,10 +99,10 @@ class Artifacts with ChangeNotifier {
       descriptionAR: [''],
     ),
     Artifact_Overview(
-      id: '',
+      id: 'a9',
       titleAR: '  ',
       titleEN: '',
-      categoriesId: ['e1'],
+      categoriesId: ['e1', 'm2'],
       imageUrl: [
         'https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Chronological_evolution_of_Egyptian_prehistoric_pottery_styles%2C_from_Naqada_I_to_Naqada_III.jpg/800px-Chronological_evolution_of_Egyptian_prehistoric_pottery_styles%2C_from_Naqada_I_to_Naqada_III.jpg'
       ],
@@ -110,10 +110,10 @@ class Artifacts with ChangeNotifier {
       descriptionAR: [''],
     ),
     Artifact_Overview(
-      id: '',
+      id: 'a10',
       titleAR: '  ',
       titleEN: '',
-      categoriesId: ['e1'],
+      categoriesId: ['e1', 'm2'],
       imageUrl: [
         'https://upload.wikimedia.org/wikipedia/commons/6/64/Egypte_louvre_300.jpg'
       ],

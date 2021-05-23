@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class EraOverviewItem extends StatelessWidget {
+class MusOverviewItem extends StatelessWidget {
   final String id;
   final String titleEN;
   final String titleAR;
   final String imageUrl;
 
-  EraOverviewItem(
+  MusOverviewItem(
     this.id,
     this.titleEN,
     this.titleAR,

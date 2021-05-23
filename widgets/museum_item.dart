@@ -4,19 +4,23 @@ class MuseumItem extends StatelessWidget {
   final String id;
   final String title;
   final String imageUrl;
+  final String description;
+  MuseumItem(this.id, this.title, this.imageUrl, this.description);
 
-  MuseumItem(this.id, this.title, this.imageUrl);
-
-  void selectCategory(BuildContext context) {
-    Navigator.of(context)
-        .pushNamed('/Second-category', arguments: {'id': id, 'title': title});
+  void selectMuseum(BuildContext context) {
+    Navigator.of(context).pushNamed('/Museum_overview_screen', arguments: {
+      'id': id,
+      'title': title,
+      'imageUrl': imageUrl,
+      'description': description
+    });
   }
 
   // ignore: empty_constructor_bodies
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      // onTap: () => selectCategory(context),
+      onTap: () => selectMuseum(context),
       child: Card(
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(15),

@@ -8,6 +8,7 @@ import './screens/artifacts_overview_screen.dart';
 import './screens/artifact_screen.dart';
 import './providers/artifacts.dart';
 import './screens/era_overview_screen.dart';
+import './screens/mus_overview_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -30,6 +31,7 @@ class MyApp extends StatelessWidget {
           '/Artifact_Overview_screen': (context) => ArtifactsOverviewScreen(),
           '/Artifact_screen': (context) => ArtifactScreen(),
           '/Era_Overview_screen': (context) => EraOverviewScreen(),
+          '/Museum_overview_screen': (context) => MuseumOverviewScreen(),
         },
       ),
     );

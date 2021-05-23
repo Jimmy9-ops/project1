@@ -21,7 +21,7 @@ class _ArtifactScreenState extends State<ArtifactScreen> {
   @override
   void initState() {
     super.initState();
-    Timer.periodic(Duration(seconds: 10), (Timer timer) {
+    Timer.periodic(Duration(seconds: 20), (Timer timer) {
       if (_currentPage < 2) {
         _currentPage++;
       } else {
